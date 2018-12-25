@@ -1,0 +1,316 @@
+/* ==== A SIMPLE CSS RESET FROM ERIC MEYER ==== */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+@media (min-width: 600px){
+  body {
+      background: #F4F4F4;
+      margin:0;
+  }
+
+
+.link-title {
+    text-decoration: none;
+    font-size: 24px;
+    color:#444444;
+}
+
+.page-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    width:90%;
+    margin: 0 auto;
+    background: #FFF;
+    box-shadow: 0px 9px 13px 5px;
+}
+
+
+/* ==== HEADER CSS ==== */
+
+header {
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+header img {
+  width: 8rem;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 100%;
+  padding: .25rem;
+}
+
+header h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.25rem;
+    color: #555;
+    margin: .67rem 0;
+}
+
+header h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: .875rem;
+    text-transform: uppercase;
+    color: #777;
+    letter-spacing: .1rem;
+}
+
+
+
+/*---------------------------------------------------------*/
+
+/*
+.header {
+    padding: 45px 0 20px 40px;
+}
+
+.header a{
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.25rem;
+  color: #555;
+  margin: .67rem 0;
+}
+*/
+/*
+.menu {
+
+    background: #3b7687;
+    padding: 6px 0 6px 40px;
+
+
+}
+
+
+.menu a {
+
+    color: #c5d6db;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Arial Narrow", "Myriad Pro";
+}
+
+.menu a:hover {
+
+    color:#ecf2f3;
+
+
+}
+*/
+
+/* ==== A SIMPLE TOP NAVIGATION ==== */
+
+nav {
+font-size: 0;
+}
+
+nav ul {
+background-color: #eee;
+text-align: center;
+}
+
+nav li {
+font-family: 'Anton', sans-serif;
+font-size: 1.4rem;
+line-height: 3rem;
+height: 3rem;
+border-bottom: 1px solid #ccc;
+}
+nav a {
+text-decoration: none;
+color: #C74F78;
+display: block;
+}
+nav a:hover {
+background-color: #fff;
+transition: background-color .3s ease-in-out;
+}
+nav a.active {
+background-color: #c74f78;
+color: #eee;
+}
+
+
+
+nav li {
+  display: inline-block;
+  border-bottom: none;
+  width: 7.5rem;
+}
+
+/*-----------------------------------------*/
+aside {
+
+    float: left;
+    width: 120px;
+    padding: 30px 0 0 40px;
+
+}
+
+h1 {
+
+    margin: 0px;
+    color:#869843;
+    font-size: 24px;
+    font-family: "Arial Narrow", "Myriad Pro";
+    font-weight: normal;
+
+}
+
+h2 {
+
+    color:#3b7687;
+    font-size: 15px;
+    margin: 20px 0 5px 0;
+
+}
+
+  .main {
+
+      margin: 0 0 0 180px;
+      padding: 35px 40px 30px 0;
+      color: #444444;
+      font-family: "Georgia";
+      font-size: 13px;
+      line-height: 18px;
+      text-emphasis: justify;
+
+
+  }
+
+  .main a:hover {
+
+      color: #444444;
+
+  }
+
+
+
+#home-image img {
+
+    width: 100%;
+
+}
+
+
+
+
+footer {
+
+    padding: 6px 40px 6px 40px;
+    background: #d6d6d6;
+    font-family: "Lucida Sans Unicode";
+    color: #444444;
+    font-size: 11px;
+    text-decoration: right;
+    clear: both;
+
+}
+
+footer a {
+    text-decoration: none;
+    color:#262626;
+
+
+}
+
+.separator {
+
+    color:#FFFFFF;
+    font-size: 11px;
+
+
+}
+
+
+/****************About Page Styles *****************/
+
+
+#about-page #home-image img {
+
+    width: 70%;
+    float: left;
+    margin-bottom: 20px;
+
+}
+
+#about-page #profile-info {
+
+    float: right;
+    width: 20%;
+    margin: 5px;
+
+
+}
+
+#about-page .description {
+
+    clear: both;
+
+
+}
+
+
+/***************Contact Page ********************/
+
+#contact #form {
+
+    width: 500px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    box-shadow: 0px 9px 13px 5px;
+    border-radius: 5px;
+
+
+}
+
+
+
+#contact #form input {
+
+    width: 100%;
+    border-radius: 5px;
+    height: 20px;
+    background: #D6D6D6;
+
+}
+
+#contact #form #message {
+    width: 100%;
+    border-radius: 5px;
+    background: #D6D6D6;
+
+}
+
+#contact #form #submit {
+    height: 30px;
+    background: rgb(59, 118, 135);
+
+}
+}
